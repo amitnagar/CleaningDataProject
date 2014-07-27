@@ -66,7 +66,7 @@ for(i in 1:dim(merged.data.1)[1]){
                 merged.data.1[i,2] <-'WALKING_DOWNSTAIRS'
         if ( merged.data.1[i,2] == 4 ) 
                 merged.data.1[i,2] <-'SITTING'
-        if ( merged.data.1[i,2] == 5 ) 
+        if ( merged.data.1[i,2] == 5 )  
                 merged.data.1[i,2] <-'STAINDING'
         if ( merged.data.1[i,2] == 6 ) 
                 merged.data.1[i,2] <-'LAYING'
