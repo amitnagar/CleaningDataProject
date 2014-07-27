@@ -60,7 +60,7 @@ for (i in 1:length(allnames)){
 for(i in 1:dim(merged.data.1)[1]){
         if ( merged.data.1[i,2] == 1 ) 
                 merged.data.1[i,2] <-'WALKING'
-        if ( merged.data.1[i,2] == 2 ) 
+        if ( merged.data.1[i,2] == 2 )  
                 merged.data.1[i,2] <-'WALKING_UPSTAIRS'
         if ( merged.data.1[i,2] == 3 ) 
                 merged.data.1[i,2] <-'WALKING_DOWNSTAIRS'
